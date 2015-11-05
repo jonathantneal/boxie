@@ -1,0 +1,62 @@
+{
+  "name": "boxie",
+  "version": "0.1.0",
+  "description": "Flexbox for older Internet Explorer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathantneal/boxie.git"
+  },
+  "keywords": [
+    "flex",
+    "display",
+    "direction",
+    "wrap",
+    "flow",
+    "justify",
+    "content",
+    "align",
+    "items",
+    "content",
+    "order",
+    "grow",
+    "shrink",
+    "basis",
+    "self",
+    "auto",
+    "start",
+    "end",
+    "center",
+    "baseline",
+    "stretch",
+    "space",
+    "between",
+    "around",
+    "polyfill",
+    "ie",
+    "internet",
+    "explorer",
+    "layout"
+  ],
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/jonathantneal/boxie/issues"
+  },
+  "homepage": "https://github.com/jonathantneal/boxie#readme",
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore",
+    "tape": "tape test.js | tap-spec",
+    "test": "npm run lint && npm run tape"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^1.8.0",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
+  "engines": {
+    "iojs": ">=2.0.0",
+    "node": ">=0.12.0"
+  }
+}
